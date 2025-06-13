@@ -65,5 +65,21 @@ php artisan migrate --seed
 php artisan serve
 // ou 
 use docker ./vendor/bin/sail up -d 
+´´´
+
+
+## Status dos Testes
+
+Os testes foram configurados com PestPHP e cobrem autenticação, verificação de e-mail, atualização de perfil e acesso ao dashboard.
+
+❗ Se algum teste falhar no CI (GitHub Actions), verifique se o ambiente está corretamente configurado com um `.env.testing` que aponte para o banco de dados correto (SQLite in-memory ou arquivo).
+
+
+
+
+
+
+
+
 
 
