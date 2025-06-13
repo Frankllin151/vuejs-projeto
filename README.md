@@ -76,7 +76,7 @@ Os testes foram configurados com PestPHP e cobrem autenticação,
 ❗ Se algum teste falhar no CI (GitHub Actions),
  verifique se o ambiente está corretamente configurado com um
  `.env.testing` que aponte
-para o banco de dados correto (SQLite in-memory ou arquivo).
+para o banco de dados correto (mysql ou arquivo).
 
 
 
